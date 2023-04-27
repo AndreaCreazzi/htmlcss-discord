@@ -7,33 +7,43 @@
     <meta name="author" content="class100">
     <meta name="description" content="firts layout of a webpage">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet"/>
     <title>Struttura Discord</title>
 </head>
 <body>
-    <!--toolbar-->
+    <!--navbar-->
     <header>
-        <div class="toolbar flex">
-            <div class="start-row-left dashed">logo</div>
-            <div class="start-row-middle dashed">
+        <div class="navbar flex">
+            <div class="nav-row-left">
+                <img src="img/logo.svg" alt="logo discord">
+            </div>
+            <div class="nav-row-middle ">
                 <ul>
-                    <li><a href="#">link</a></li>
-                    <li><a href="#">link</a></li>
-                    <li><a href="#">link</a></li>
-                    <li><a href="#">link</a></li>
-                    <li><a href="#">link</a></li>
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perché Discord</a></li>
+                    <li><a href="#">Nitro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
                 </ul>
             </div>
-            <div class="start-row-rigth dashed">login</div>
+            <div class="nav-row-rigth">
+                <div class="login center">Accedi</div>
+            </div>
         </div>
+        <section>
+            <div class="jumbotron flex">
+                <div class="jumbotron-row center">
+                    <h1 class="jumbo-title center">Il tuo posto per parlare</h1>
+                    <p class="jumbo-content center">che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un gruppo di amici che vuole passare il tempo assieme, Discord rende piu facile chiacchierare ogni giorno e ritrovarsi piu spesso.</p>
+                    <div class="button-left">&#129047; Scarica per Mac</div>
+                    <div class="button-right">Apri Discord nel tuo browser</div>
+                </div>
+            </div>
+        </section>
     </header>
     <!--site-->
     <main>
-        <section>
-            <div class="blue-container flex">
-                <div class="pink-row"></div>
-            </div>
-        </section>
-
         <section>
             <div class="white-container flex">
                 <div class="blue-row"></div>
@@ -60,7 +70,9 @@
                 <div class="green-row"></div>
             </div>    
         </section>
-
+    </main>
+    <!--banner-->
+    <footer>
         <section>
             <div class="black-container flex">
               <div class="lightpink-row"></div>  
@@ -71,9 +83,6 @@
             </div>
             <div class="line-separator"></div>
         </section>
-    </main>
-    <!--banner-->
-    <footer>
         <div class="banner flex">
             <div class="aquamarine-row flex">
                 <div class="logo">Logo</div>
