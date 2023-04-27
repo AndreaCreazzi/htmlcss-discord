@@ -24,7 +24,6 @@ header{
     background-size: cover;
 }
 
-
 li{
     list-style-type: none;
     display: inline;
@@ -38,7 +37,7 @@ li a{
     text-decoration: none;
 }
 
-ul{
+.nav-row-middle ul{
     text-align: center;
     padding: var(--space-sm);
 }
@@ -123,7 +122,6 @@ ul{
     font-size: 20px;
     font-weight: bold;
 }
-
 
 .button-right{
     display: inline-block;
@@ -286,53 +284,84 @@ ul{
 
 .toolbar-container{
     height: 500px;
-    background-color: #000000;
+    background-color: #23272a;
+}
+
+.toolbar{
+    flex-basis: 30%;
+    min-height: 90%;
+    margin-bottom: var(--space-sl);
+    padding: 50px 100px; 
 }
 
 .toolbar-title{
-    flex-basis: 20%;
-    min-height: 90%;
-    background-color: #f08080;
-    border: 2px dashed black;
-    margin-bottom: var(--space-sl);
+    color: #7289da;
+    font-size: 35px;
 }
 
-.lightblue-row{
-    flex-basis: 10%;
+.language{
+    margin-top: 15px;
+    color: white;
+}
+
+.italy{
+    height: 20px;
+    vertical-align: middle;
+}
+
+.small-logos{
+    margin-top: 15px;
+}
+
+.small-logos > *{
+    padding-right: 10px;
+}
+
+.toolbar-service{
+    flex-basis: 15%;
     min-height: 90%;
-    background-color: #20b2aa;
-    border: 2px dashed white;
     margin-bottom: var(--space-sl);
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.toolbar-list{
+    line-height: 35px;
+    font-size: 20px;
+    color: white;
+}
+
+.service-title{
+    color: #7188d8;
 }
 
 .line-separator{
-    height: 1px;
-    border: 1px solid white;
+    margin: 0 155px;
+    height: 2px;
+    background-color:#414c6e;
+    
+}
+
+footer{
+    background-color: #23272a;
+    padding-bottom: 90px;
 }
 
 .banner{
-    background-color: black;
-    height: 70px;
+    margin-top: 20px;
 }
 
-.aquamarine-row{
-    flex-basis: 60%;
+.banner-container{
+    flex-basis: 80%;
     min-height: 75%;
-    background-color: #7fffd4;
     margin-top: 15px;
     justify-content: space-between;
 }
 
-.logo{
-    background-color: #ffb6c1;
-    border: 2px dashed black;
-    font-size: var(--space-sxl);
-    padding: 2px 2px;
-}
-
 .button{
-    background-color: #ffb6c1;
-    border: 2px dashed black;
+    background-color: #8ea1e1;
+    border-radius: 30px;
     font-size: var(--space-sxl);
-    padding: 2px 2px;
+    padding: 10px 15px;
+    color: white;
 }
