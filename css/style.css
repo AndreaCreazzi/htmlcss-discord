@@ -16,7 +16,7 @@
 
 /*generics*/
 body{
-    font-family: 'Roboto', sans-serif;;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header{
@@ -136,48 +136,160 @@ ul{
     margin-left: 5px;
 }
 
-.white-container{
-    height: 500px;
+.chat-container{
+    height: 600px;
     background-color:white;
 }
 
-.blue-row{
-    flex-basis: 35%;
+.frog-img{
+    flex-basis: 55%;
     min-height: 80%;
-    background-color: #1e90ff;
-    border: 2px dashed black;
+    padding-left: 100px;
 }
 
-.flesh-row{
+.chat{
     flex-basis: 25%;
     min-height: 80%;
-    background-color: #ffc0cb;
-    border: 2px dashed black;
+    padding-right: 40px;
+    padding-top: 30px;
 }
 
-.lightgrey-container{
-    height: 500px;
-    background-color: lightgray;
+.chat-title{
+    font-size: 50px;
 }
 
-.green-row{
-    flex-basis: 60%;
-    min-height: 90%;
-    background-color: #228b22;
-    border: 2px dashed black;
+.chat-description{
+    padding-top: 20px;
+    font-size: large;
+    padding-right: 40px;
+    line-height: 25px;
 }
 
-.grey-container{
-    height: 900px;
-    background-color: lightgray;
+.wave{
+    color: #f6f6f6;
+    display: block;
 }
 
-.black-container{
+.wave-upside-down{
+    color: #f6f6f6;
+    display: block;
+    rotate: 180deg;
+}
+
+.party-container{
+    height: 600px;
+    background-color: #f6f6f6;
+}
+
+.magic-img{
+    flex-basis: 45%;
+    min-height: 80%;
+    padding-left: 100px;
+    
+}
+
+.party{
+    flex-basis: 25%;
+    min-height: 80%;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.party-title{
+    font-size: 50px;;
+}
+
+.party-description{
+    font-size: large;
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+.channels-container{
+    height: 600px;
+    background-color:white
+}
+
+.genie-img{
+    flex-basis: 55%;
+    min-height: 80%;
+    padding-left: 100px;
+}
+
+.channels{
+    flex-basis: 25%;
+    min-height: 80%;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+
+.channels-title{
+    font-size: 50px;
+}
+
+.channels-description{
+    padding-top: 20px;
+    font-size: large;
+    padding-right: 40px;
+    line-height: 25px;
+}
+
+.device-container{
+    height: 1200px;
+    background-color: #f6f6f6;
+}
+
+.device{
+    flex-basis: 70%;
+}
+
+.device-title{
+    font-size: 50px;
+}
+
+.device-description{
+    padding-top: 20px;
+    font-size: large;
+    padding: 20px 135px;
+    line-height: 25px;
+}
+
+.device-img{
+    display: inline-block;
+    padding-left: 20px;
+    height: 700px;
+}
+
+.device-download-text{
+    font-size: 30px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    display: inline-block;
+    margin-left: 350px;
+    padding-top: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.device-download{
+    margin-top: 20px;
+    padding: 10px 40px;
+    display: inline-block;
+    background-color: #8ea1e1;
+    border-radius: 30px;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 460px;
+    color: white;
+}
+
+.toolbar-container{
     height: 500px;
     background-color: #000000;
 }
 
-.lightpink-row{
+.toolbar-title{
     flex-basis: 20%;
     min-height: 90%;
     background-color: #f08080;
